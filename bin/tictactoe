@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby
 
-# require 'pry'
-# require_relative '../lib/tic_tac_toe.rb'
+ require 'pry'
+
 require_relative '../lib/tic_tac_toe.rb'
 
-# game1 = TicTacToe.new
-
-# game1.play
 
 game = TicTacToe.new
 game.play
+
+# ./bin/tictactoe use this on the terminal to run the program
+
